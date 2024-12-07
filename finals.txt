@@ -1,0 +1,94 @@
+    1  pkg install git
+    2  cleae
+    3  clear
+    4  mkdir git_practical_exam
+    5  cd gut_pracrical_exam
+    6  cd git_practical_exam
+    7  git init
+    8  git config --global init.defaultBranch main
+    9  git branch -m main
+   10  git remote add origin https://github.com/Glester-16/git_practical_exam
+   11  git remote -v
+   12  echo "Name: Glester 
+Exam Date: 12/07/24" > student_info.txt
+   13  git add student_info.txt
+   14  git commit -m "Initial commit: Added student_info.txt"
+   15  git config --global user.emal "rivero16glester@gmail.com"
+   16  git config --global user.name "Glester"
+   17  git commit -m "Initial commit: Added student_info.txt"
+   18  git config --global user.name Glester
+   19  git config --global user.emal rivero16glester@gmail.com
+   20  git commit -m "Initial commit: Added student_info.txt"
+   21  clear
+   22  git commit -m "Initial commit: Added student_info.txt"
+   23  git config --global user.email "rivero16glester@gmail.com"
+   24  git config --global user.name "Glester"
+   25  git commit -m "Initial commit: Added student_info.txt"
+   26  echo "Favorite Git Command: [git push]" >> student_info.txt
+   27  git add student_info.txt
+   28  git commit -m "Updated student_info.txt with favorite Git command"
+   29  git checkout -b feature-bio
+   30  echo "About Me:
+I am learning Git for version control." > bio.txt
+   31  git add bio.txt
+   32  git commit -m "Added bio.txt in feature-bio branch"
+   33  git checkout main
+   34  git merge feature-bio
+   35  git pull origin main
+   36  git branch
+   37  git branch -m main
+   38  git checkout main
+   39  git push -u origin main
+   40  git pull origin main
+   41  doskey /history > finals.txt
+   42  history > finals.txt
+    1  pkg install git
+    2  cleae
+    3  clear
+    4  mkdir git_practical_exam
+    5  cd gut_pracrical_exam
+    6  cd git_practical_exam
+    7  git init
+    8  git config --global init.defaultBranch main
+    9  git branch -m main
+   10  git remote add origin https://github.com/Glester-16/git_practical_exam
+   11  git remote -v
+   12  echo "Name: Glester 
+Exam Date: 12/07/24" > student_info.txt
+   13  git add student_info.txt
+   14  git commit -m "Initial commit: Added student_info.txt"
+   15  git config --global user.emal "rivero16glester@gmail.com"
+   16  git config --global user.name "Glester"
+   17  git commit -m "Initial commit: Added student_info.txt"
+   18  git config --global user.name Glester
+   19  git config --global user.emal rivero16glester@gmail.com
+   20  git commit -m "Initial commit: Added student_info.txt"
+   21  clear
+   22  git commit -m "Initial commit: Added student_info.txt"
+   23  git config --global user.email "rivero16glester@gmail.com"
+   24  git config --global user.name "Glester"
+   25  git commit -m "Initial commit: Added student_info.txt"
+   26  echo "Favorite Git Command: [git push]" >> student_info.txt
+   27  git add student_info.txt
+   28  git commit -m "Updated student_info.txt with favorite Git command"
+   29  git checkout -b feature-bio
+   30  echo "About Me:
+I am learning Git for version control." > bio.txt
+   31  git add bio.txt
+   32  git commit -m "Added bio.txt in feature-bio branch"
+   33  git checkout main
+   34  git merge feature-bio
+   35  git pull origin main
+   36  git branch
+   37  git branch -m main
+   38  git checkout main
+   39  git push -u origin main
+   40  git pull origin main
+   41  doskey /history > finals.txt
+   42  history > finals.txt
+   43  git push -u origin main
+   44  git tag exam-submission
+   45  git push origin exam-submission
+   46  git add finals.txt
+   47  git push
+   48  history >> finals.txt
